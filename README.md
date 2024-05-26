@@ -26,6 +26,8 @@ This project is a web application that includes user authentication, item manage
 
 ### Rate Limiting
 - Implemented a rate limiter to restrict users to 20 requests. After exceeding the limit, users receive a message to wait for 15 minutes before trying again.
+### File Uploads
+- **multer**: Used for handling file uploads. Files are stored locally.
 
 ### Testing
 - **_test_**: Contains tests for User and Item routes to ensure they function correctly.
