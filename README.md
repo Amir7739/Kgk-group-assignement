@@ -46,3 +46,23 @@ This project is a web application that includes user authentication, item manage
 1. Clone the repository:
    ```sh
    git clone https://github.com/Amir7739/Kgk-group-assignement.git
+
+   ### Install all dependencies:
+   - npm install
+
+   ### create .env file
+    PORT=3000
+   DB_HOST=localhost
+   DB_USER=root
+   DB_PASSWORD=my pass
+   DB_NAME=kgk-group
+   JWT_SECRET=mycredentials
+   
+   EMAIL_HOST=smtp.gmail.com
+   EMAIL_PORT=587
+   EMAIL_SECURE=true
+   EMAIL_USER=fintechamir@gmail.com
+   EMAIL_PASSWORD=my pass
+   EMAIL_FROM=fintechamir@gmail.com
+
+
